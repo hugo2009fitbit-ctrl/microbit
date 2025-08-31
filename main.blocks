@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=",by}Y:9@:*~.GMoSGkBV">temperatuur</variable></variables><block type="pxt-on-start" id="xRRgvHNlG#rZ^u`HECiY" x="20" y="20"><statement name="HANDLER"><block type="ringbitcar_init" id="@Z(t$ruZYOi?c.I1ns)}"><field name="left">AnalogPin.P1</field><field name="right">AnalogPin.P0</field></block></statement></block><block type="device_button_event" id="eOWz=/!R8eSJYuN$@E!x" x="606" y="20"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="0a)kl/5skNYH|6*iI-)n"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="steering" id="-v9g|mh7?weFl09Y~=o3"><field name="direction">RingbitCar.Direction_turn.right</field><value name="angle"><shadow type="math_number" id="88nSeg-0F8=l-Bs=hC(R"><field name="NUM">90</field></shadow></value><next><block type="device_clear_display" id="y~-D=79%)=G(UMf7ci_%"></block></next></block></next></block></statement></block><block type="device_button_event" id="TTbk/if,~kg-{8t+1]ob" x="988" y="20"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="_0`_H68T`@EUA]67[O/u"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="time_run" id="_PG[yCyiDZ1$0_|RC!1,"><field name="direction">RingbitCar.Direction_run.forward</field><value name="time"><shadow type="math_number" id="a!~Hs?cn4p|OwsO14?}b"><field name="NUM">1</field></shadow></value><next><block type="device_clear_display" id="l-4:8rR]s+yu=}RHQlT_"></block></next></block></next></block></statement></block><block type="device_button_event" id="uoePL?FGPL,J52]B3nQB" x="1408" y="20"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id=".^b)0pQ$`uwzJEnyM]c@"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="steering" id="q6A@9nGHWsK{fM`uXXZf"><field name="direction">RingbitCar.Direction_turn.left</field><value name="angle"><shadow type="math_number" id="Kzu$6zuTT5|6}c!t2/R8"><field name="NUM">90</field></shadow></value><next><block type="device_clear_display" id="xX+qTkI1#rDSKyMTd9+i"></block></next></block></next></block></statement></block><block type="device_gesture_event" id="w=k}}6EFo/+zK5|BCId~" x="20" y="472"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="A%SM6ABgzJ{:u_o(P+*!"><field name="VAR" id=",by}Y:9@:*~.GMoSGkBV">temperatuur</field><value name="VALUE"><shadow type="math_number" id="MC@fC6kBw^yC6vB8yuN]"><field name="NUM">0</field></shadow><block type="device_temperature" id=")=L=T;zwI)UQcHEFAQ!@"></block></value><next><block type="variables_change" id="kx+35Atls[vK1kh[/L=R"><field name="VAR" id=",by}Y:9@:*~.GMoSGkBV">temperatuur</field><value name="VALUE"><shadow type="math_number" id="zY3o=$+zl*6]1?yM?^4d"><field name="NUM">-3</field></shadow></value><next><block type="device_print_message" id="nBXUo.abV@Zn|bARhg7u"><value name="text"><shadow type="text" id="5(.IHTZ`i1nP83}!7Qp~"><field name="TEXT"></field></shadow><block type="variables_get" id="VI}#]rd}Rsd2C04Nrn|9"><field name="VAR" id=",by}Y:9@:*~.GMoSGkBV">temperatuur</field></block></value></block></next></block></next></block></statement></block><block type="input_logo_event" id="06jK^%{X.l67-t$T^!_a" x="527" y="472"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="MO+Jd`_lCCRZCgO0JNhF"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="[fRR2nEk7NPqA{5}HaKL"><value name="pause"><shadow type="timePicker" id="=Oku#txn:7^(=6R[97c_"><field name="ms">2000</field></shadow></value><next><block type="device_clear_display" id="M7,94`Q#VuobYGP6l#S0"></block></next></block></next></block></statement></block></xml>
